@@ -3,6 +3,22 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
+h1{
+    color: darkorange;
+}
+
 p{
     color: rgb(59, 57, 67);
+}
+
+.color-rojo{
+    color: red;
+}
+
+.color-morado{
+    color: violet;
+}
+
+.color-verde{
+    color: green;
 }
