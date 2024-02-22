@@ -11,6 +11,7 @@
     background-color: rgb(117, 62, 119);
     color: white;
     text-align: middle;
+    text-transform: uppercase;
 }
 
 .styled-table th,

@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabla de Datos</title>
+  <title>Tabla Insana</title>
   <link rel="stylesheet" href="./styles.css">
- 
+  <link rel="shortcut icon" href="./images/asd.png" type="image/png">
 </head>
 <body>
     <h2>Tabla de Datos</h2>
@@ -33,7 +33,6 @@
                 <th>Latitude</th>
                 <th>Longitude</th>
                 <th>Tags</th>
-                <th>Friends</th>
                 <th>Friends</th>
                 <th>Greeting</th>
                 <th>Favorite Fruit</th>
@@ -64,7 +63,32 @@
                 <td>-3.925674</td>
                 <td>-88.910095</td>
                 <td>anim, elit, laboris, elit, voluptate, adipisicing, incididunt</td>
-                <td>[ { "id": 0, "name": "Mcdaniel Vaughn" }, { "id": 1, "name": "Bobbie Callahan" }, { "id": 2, "name": "Ellen Weeks" } ]</td>
+                <td>
+                    <table class="amigos-table">
+                        <thead>
+                          <tr>
+                            <th class="amigos-th">ID</th>
+                            <th class="amigos-th">Nombre</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <!-- Filas de amigos -->
+                          <tr>
+                            <td class="amigos-td">0</td>
+                            <td class="amigos-td">Mcdaniel Vaughn</td>
+                          </tr>
+                          <tr>
+                            <td class="amigos-td">1</td>
+                            <td class="amigos-td">Bobbie Callahan</td>
+                          </tr>
+                          <!-- Agrega más filas según sea necesario -->
+                          <tr>
+                            <td class="amigos-td">2</td>
+                            <td class="amigos-td">Ellen Weeks</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </td>
                 <td>Hello, Monroe Sears! You have 10 unread messages.</td>
                 <td>banana</td>
               </tr>
@@ -89,7 +113,33 @@
                 <td>-10.478908</td>
                 <td>99.512436</td>
                 <td>est, ea, minim, exercitation, eiusmod, commodo, ut</td>
-                <td>[ { "id": 0, "name": "Coleman Johnston" }, { "id": 1, "name": "Lacy Osborn" }, { "id": 2, "name": "Frieda Mendez" } ]</td>
+                <td>
+                     <!-- Tabla interna para Amigos -->
+        <table class="amigos-table">
+            <thead>
+              <tr>
+                <th class="amigos-th">ID</th>
+                <th class="amigos-th">Nombre</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Filas de amigos -->
+              <tr>
+                <td class="amigos-td">0</td>
+                <td class="amigos-td">Coleman Johnston</td>
+              </tr>
+              <tr>
+                <td class="amigos-td">1</td>
+                <td class="amigos-td">Lacy Osborn</td>
+              </tr>
+              <!-- Agrega más filas según sea necesario -->
+              <tr>
+                <td class="amigos-td">2</td>
+                <td class="amigos-td">Frieda Mendez</td>
+              </tr>
+            </tbody>
+          </table>
+                </td>
                 <td>Hello, Dionne Aguilar! You have 8 unread messages.</td>
                 <td>strawberry</td>
               </tr>
