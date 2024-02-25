@@ -1,116 +1,58 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de registro - Mi web</title>
-
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        form {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            width: 400px;
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-
-        label {
-            display: block;
-            margin: 10px 0;
-            color: #555;
-        }
-
-        input,
-        select,
-        textarea {
-            width: 100%;
-            padding: 8px;
-            margin: 6px 0;
-            box-sizing: border-box;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        input[type="checkbox"] {
-            margin-right: 5px;
-        }
-
-        button {
-            background-color: #4caf50;
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 100%;
-        }
-
-        button:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-    <form action="" method="GET">
+    <form action="" method="get">
 
         <h1>Formulario de registro - Mi web</h1>
-
+        
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" maxlength="50" required>
 
         <label for="apellidos">Apellidos:</label>
         <input type="text" id="apellidos" name="apellidos" maxlength="50" required>
-
+    
         <label>Sexo:</label>
         <input type="radio" id="hombre" name="sexo" value="hombre" required>
         <label for="hombre">Hombre</label>
         <input type="radio" id="mujer" name="sexo" value="mujer" required>
         <label for="mujer">Mujer</label>
-
-        <label for="correo">Correo electrónico:</label>
-        <input type="text" id="correo" name="correo" required>
-
+    
+        <label for="correo">Correo electrónico</label>
+        <input type="email" name="correo" id="correo">
+    
         <label>
             <input type="checkbox" checked>
             Deseo recibir información sobre novedades y ofertas
         </label>
-
+    
         <label>
             <input type="checkbox" required>
             Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos
         </label>
-
+    
         <label for="poblacion">Población:</label>
-        <select id="poblacion" name="poblacion">
-            <option value="bucaramanga">Bucaramanga</option>
-            <option value="giron">Giron</option>
-            <option value="floridablanca">Floridablanca</option>
-            <option value="piedecuesta">Piedecuesta</option>
+        <select name="poblacion" id="poblacion">
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Giron">Giron</option>
+            <option value="Floridablanca">Floridablanca</option>
+            <option value="Piedecuesta">Piedecuesta</option>
         </select>
-
+        
         <label for="descripcion">Descripción:</label>
-        <textarea id="descripcion" name="descripcion" rows="4"></textarea>
-
-        <button type="submit">Enviar</button>
+        <textarea name="descripcion" id="descripcion" cols="15" rows="5"></textarea>
+    
+        <button type="submit" >Enviar</button>
+    
 
     </form>
 
+    
 </body>
 </html>
