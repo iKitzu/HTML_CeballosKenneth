@@ -21,56 +21,92 @@ body {
 }
 */
 
+/*
+    #slogan 
+        position: absolute;
+        top: 300px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+        left: 50%; /* Coloca la mitad del texto en la posición horizontal */
+        transform: translateX(-50%); /* Centra el texto horizontalmente */
+        text-align: center; /* Alinea el texto al centro */
+        font-size: 43px; /* Ajusta el tamaño del texto según tus necesidades */
+        color: white; /* Color del texto */
+        white-space: nowrap; /* Evita el salto de línea */
+*/
+
+
 #amazon-logo {
     position: absolute;
-    top: 130px; /* Ajusta la distancia desde la parte superior según tus necesidades */
-    left: 50%; /* Coloca la mitad de la imagen en la posición horizontal */
-    transform: translateX(-50%); /* Centra la imagen horizontalmente */
-    width: 400px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    top: 130px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 400px; 
 }
 
 #slogan, h1 {
     position: absolute;
-    top: 300px; /* Ajusta la distancia desde la parte superior según tus necesidades */
-    left: 50%; /* Coloca la mitad del texto en la posición horizontal */
-    transform: translateX(-50%); /* Centra el texto horizontalmente */
-    text-align: center; /* Alinea el texto al centro */
-    font-size: 43px; /* Ajusta el tamaño del texto según tus necesidades */
-    color: white; /* Color del texto */
-    white-space: nowrap; /* Evita el salto de línea */
+    top: 300px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-align: center; 
+    font-size: 43px; 
+    color: white; 
+    white-space: nowrap;
 }
 
-#other-slogan, h3 {
+#other-slogan {
     position: absolute;
-    top: 300px; /* Ajusta la distancia desde la parte superior según tus necesidades */
-    left: 50%; /* Coloca la mitad del texto en la posición horizontal */
-    transform: translateX(-50%); /* Centra el texto horizontalmente */
-    text-align: center; /* Alinea el texto al centro */
-    font-size: 43px; /* Ajusta el tamaño del texto según tus necesidades */
-    color: white; /* Color del texto */
-    white-space: nowrap; /* Evita el salto de línea */
+    top: 300px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-align: center; 
+    font-size: 43px; 
+    color: white; 
+    white-space: nowrap;
 }
+
+#other-slogan1 {
+    position: absolute;
+    top: 400px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-align: center; 
+    font-size: 43px; 
+    color: white; 
+    white-space: nowrap; 
+}
+
+#other-slogan2 {
+    position: absolute;
+    top: 400px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    text-align: center; 
+    font-size: 43px; 
+    color: white; 
+    white-space: nowrap;
+}
+
 
 #buscador {
     position: absolute;
-    top: 1px; /* Ajusta la distancia desde la parte superior según tus necesidades */
-    left: 55px; /* Coloca la mitad de la imagen en la posición horizontal */
-    transform: translateX(-50%); /* Centra la imagen horizontalmente */
-    width: 20px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    top: 1px; 
+    left: 55px; 
+    transform: translateX(-50%); 
+    width: 20px; 
 }
 
 #fondo-login {
     position: absolute;
-    top: 1px; /* Ajusta la distancia desde la parte superior según tus necesidades */
-    left: 1250px; /* Coloca la mitad de la imagen en la posición horizontal */
-    transform: translateX(-50%); /* Centra la imagen horizontalmente */
-    width: 150px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    top: 1px; 
+    left: 1250px; 
+    transform: translateX(-50%); 
+    width: 150px; 
 }
 
 #login-letter {
     position: absolute;
-    top: 13px; /* Ajusta la distancia desde la parte superior según tus necesidades */
-    left: 1250px; /* Coloca la mitad de la imagen en la posición horizontal */
-    transform: translateX(-50%); /* Centra la imagen horizontalmente */
-    width: 40px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    top: 13px;
+    left: 1250px; 
+    transform: translateX(-50%);
+    width: 40px; 
 }
