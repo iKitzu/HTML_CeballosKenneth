@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif; /* Puedes cambiar la fuente según tus preferencias */
-    height: 100vh; /* Establecer altura al 100% de la ventana */
+    height: 110vh; /* Establecer altura al 100% de la ventana */
     background-color: black; /* Como la iamgen es transparente se pone un color negro de fondo xddddd */
     background-image: url('./activos/FondoTwitch.png');/* Ruta de la imagen de fondo */
     background-size: cover;
@@ -23,7 +23,7 @@ body {
 
 #amazon-logo {
     position: absolute;
-    top: 100px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    top: 130px; /* Ajusta la distancia desde la parte superior según tus necesidades */
     left: 50%; /* Coloca la mitad de la imagen en la posición horizontal */
     transform: translateX(-50%); /* Centra la imagen horizontalmente */
     width: 400px; /* Ajusta el tamaño de la imagen según tus necesidades */
@@ -31,7 +31,7 @@ body {
 
 #slogan, h1 {
     position: absolute;
-    top: 270px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    top: 300px; /* Ajusta la distancia desde la parte superior según tus necesidades */
     left: 50%; /* Coloca la mitad del texto en la posición horizontal */
     transform: translateX(-50%); /* Centra el texto horizontalmente */
     text-align: center; /* Alinea el texto al centro */
@@ -40,3 +40,37 @@ body {
     white-space: nowrap; /* Evita el salto de línea */
 }
 
+#other-slogan, h3 {
+    position: absolute;
+    top: 300px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    left: 50%; /* Coloca la mitad del texto en la posición horizontal */
+    transform: translateX(-50%); /* Centra el texto horizontalmente */
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 43px; /* Ajusta el tamaño del texto según tus necesidades */
+    color: white; /* Color del texto */
+    white-space: nowrap; /* Evita el salto de línea */
+}
+
+#buscador {
+    position: absolute;
+    top: 1px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    left: 55px; /* Coloca la mitad de la imagen en la posición horizontal */
+    transform: translateX(-50%); /* Centra la imagen horizontalmente */
+    width: 20px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+#fondo-login {
+    position: absolute;
+    top: 1px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    left: 1250px; /* Coloca la mitad de la imagen en la posición horizontal */
+    transform: translateX(-50%); /* Centra la imagen horizontalmente */
+    width: 150px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+#login-letter {
+    position: absolute;
+    top: 13px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    left: 1250px; /* Coloca la mitad de la imagen en la posición horizontal */
+    transform: translateX(-50%); /* Centra la imagen horizontalmente */
+    width: 40px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
