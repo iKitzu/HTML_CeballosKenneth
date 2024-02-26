@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: #e0e0e0; /* Fondo gris claro para toda la página */
+    }
+
+    .cuadrado {
+      position: fixed;
+      width: 50vw;
+      height: 50vh;
+      box-sizing: border-box;
+      border: 10px solid; /* Grosor del borde */
+    }
+
+    .rectangulo-central {
+      position: fixed;
+      width: 50vw;
+      height: 50vh;
+      box-sizing: border-box;
+      border: 10px solid #ffffff; /* Color blanco para el rectángulo central */
+      top: 25vh;
+      left: 25vw;
+    }
+
+    #cuadrado1 {
+      top: 0;
+      left: 0;
+      border-color: #ff9999; /* Color rosa */
+    }
+
+    #cuadrado2 {
+      top: 0;
+      right: 0;
+      border-color: #99ff99; /* Color verde claro */
+    }
+
+    #cuadrado3 {
+      bottom: 0;
+      left: 0;
+      border-color: #9999ff; /* Color azul claro */
+    }
+
+    #cuadrado4 {
+      bottom: 0;
+      right: 0;
+      border-color: #ffff99; /* Color amarillo claro */
+    }
+  </style>
+</head>
+<body>
+  <div id="cuadrado1" class="cuadrado"></div>
+  <div id="cuadrado2" class="cuadrado"></div>
+  <div id="cuadrado3" class="cuadrado"></div>
+  <div id="cuadrado4" class="cuadrado"></div>
+  <div class="rectangulo-central"></div>
+
+</body>
+</html>
