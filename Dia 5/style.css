@@ -21,17 +21,17 @@ body {
 }
 */
 
-/*
-    #slogan 
+
+    /*#slogan 
         position: absolute;
         top: 300px; /* Ajusta la distancia desde la parte superior según tus necesidades */
-        left: 50%; /* Coloca la mitad del texto en la posición horizontal */
-        transform: translateX(-50%); /* Centra el texto horizontalmente */
-        text-align: center; /* Alinea el texto al centro */
-        font-size: 43px; /* Ajusta el tamaño del texto según tus necesidades */
-        color: white; /* Color del texto */
-        white-space: nowrap; /* Evita el salto de línea */
-*/
+        /*left: 50%; /* Coloca la mitad del texto en la posición horizontal */
+        /*transform: translateX(-50%); /* Centra el texto horizontalmente */
+        /*text-align: center; /* Alinea el texto al centro */
+        /*font-size: 43px; /* Ajusta el tamaño del texto según tus necesidades */
+        /*color: white; /* Color del texto */
+        /*white-space: nowrap; /* Evita el salto de línea */
+
 
 
 #amazon-logo {
