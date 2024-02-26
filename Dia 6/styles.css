@@ -1,0 +1,10 @@
+body {
+    background-color: peachpuff;
+}
+
+#black-side {
+    position: absolute;
+    top: -5%;
+    width: 8vw;
+    right: -108%;
+}

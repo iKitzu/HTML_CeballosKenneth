@@ -36,7 +36,7 @@ body {
 
 #amazon-logo {
     position: absolute;
-    top: 130px; 
+    top: 130%; 
     left: 50%; 
     transform: translateX(-50%);
     width: 400px; 
