@@ -140,3 +140,10 @@ body {
   right: 33vw;
   top: 3.8vw;
 }
+
+#flecha {
+  position: absolute;
+  width: 5vw;
+  left: 90vw;
+  top: 5vw;
+}
