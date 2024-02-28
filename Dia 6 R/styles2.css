@@ -134,6 +134,13 @@ body {
     margin-top: 50px;
 }
 
+#flechabajo {
+    position: absolute;
+    transform: rotate(180deg);
+    margin-left: 1790px;
+    margin-top: 990px;
+}
+
 #linea-negra {
     position: absolute;
     height: 3px;
