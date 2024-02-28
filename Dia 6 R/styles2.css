@@ -12,12 +12,17 @@ body {
     background-color: gray;
 }
 
+
+
+
 .rectangulo-base {
+    border-radius: 30px;
     width: 1900px; 
     height: 1080px; 
     background-color: white;
-    border: 2px solid peru;
+    box-shadow: 7px 13px 37px #000;
 }
+
 
 #logo-metrolinea2 {
     position: absolute;
@@ -50,7 +55,7 @@ body {
     width: 725px;
     height: 390px;
 }
-
+/*
 #black-line {
     position: absolute;
     margin-top: 0px;
@@ -58,7 +63,7 @@ body {
     width: 170px;
     height: 1080px;
 }
-
+*/
 .base .textos .tarjetamsaldo {
     position: absolute;
     font-family: "Open Sans Semibold";
@@ -142,7 +147,7 @@ body {
     font-size: 25px;
     position: absolute;
     color: white;
-    margin-left: 1762.5px;
+    margin-left: 1785px;
     margin-top: 200px;
 }
 
@@ -165,3 +170,14 @@ body {
     margin-top: 835px;
     margin-left: 750px;
 }
+
+.cuadro-peru {
+    position: absolute;
+    border-radius: 15px;
+
+    margin-top: 0px;
+    margin-left: 1730px;
+    width: 170px;
+    height: 1080px;
+    background-color: black; /* Color oro como representación del rojo en la bandera peruana */
+  }

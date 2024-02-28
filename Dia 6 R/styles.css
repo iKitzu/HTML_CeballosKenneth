@@ -13,10 +13,11 @@ body {
 }
 
 .rectangulo-base {
+    border-radius: 30px;
     width: 1900px; 
     height: 1080px; 
     background-color: white;
-    border: 2px solid peru;
+    box-shadow: 7px 13px 37px #000;
 }
 
 #logo-metrolinea2 {
@@ -51,13 +52,16 @@ body {
     height: 600px;
 }
 
-#black-line {
+.cuadro-peru {
     position: absolute;
+    border-radius: 15px;
+
     margin-top: 0px;
     margin-left: 1730px;
     width: 170px;
     height: 1080px;
-}
+    background-color: black; /* Color oro como representación del rojo en la bandera peruana */
+  }
 
 .base .textos .tarjetamsaldo {
     position: absolute;
