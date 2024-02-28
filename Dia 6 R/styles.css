@@ -89,6 +89,7 @@ body {
     font-size: 40px;
     margin-top: 10px;
     margin-left: 1170px;
+    color: black;
 }
 
 #buscador {
@@ -122,9 +123,9 @@ body {
 #linea-negra {
     position: absolute;
     height: 3px;
-    width: 250px;
+    width: 180px;
     margin-top: 105px;
-    margin-left: 830px;
+    margin-left: 870px;
 }
 
 .rectangulo-base .imagenes .cantidad {
