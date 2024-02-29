@@ -188,3 +188,39 @@ body {
     height: 1080px;
     background-color: black; /* Color oro como representación del rojo en la bandera peruana */
   }
+
+  .milpeso {
+    position: absolute;
+    font-size: 32px; 
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-family: "Open Sans Regular";
+    color: gray;
+    margin-top: -700px;
+    margin-left: 1770px;
+}
+
+.milquinientopeso {
+    position: absolute;
+    font-size: 32px; 
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-family: "Open Sans Regular";
+    color: white;
+    margin-top: -530px;
+    margin-left: 1770px;
+}
+
+.domilpeso {
+    position: absolute;
+    font-size: 32px; 
+    font-family: "Open Sans Regular";
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #000;
+    color: gray;
+    margin-top: -360px;
+    margin-left: 1770px;
+}
