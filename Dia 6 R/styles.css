@@ -148,3 +148,30 @@ body {
     margin-left: 1762.5px;
     margin-top: 200px;
 }
+
+.cerocuatro {
+    position: absolute;
+    font-size: 32px; 
+    font-family: "Open Sans Regular";
+    color: white;
+    margin-top: -700px;
+    margin-left: 1800px;
+}
+
+.cerocinco {
+    position: absolute;
+    font-size: 32px; 
+    font-family: "Open Sans Regular";
+    color: white;
+    margin-top: -530px;
+    margin-left: 1800px;
+}
+
+.ceroseis {
+    position: absolute;
+    font-size: 32px; 
+    font-family: "Open Sans Regular";
+    color: white;
+    margin-top: -360px;
+    margin-left: 1800px;
+}
