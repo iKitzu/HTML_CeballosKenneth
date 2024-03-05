@@ -8,8 +8,35 @@ body {
 .rectangulo-base6 {
     border: 15px solid #ff702a;
     width: 1920px; 
-    height: 540px; 
+    height: 1080px; 
     background-color: #1e1d2b;
     box-shadow: 7px 13px 37px #000;
     border-radius: 30px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ececec; /* Color de fondo de la página */
+}
+
+.contenedor-rectangulo {
+    position: relative;
+    width: 80%; /* Puedes ajustar el ancho del rectángulo según tus preferencias */
+    margin: 50px auto; /* Centrar el rectángulo en la página */
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 (1080 / 1920 * 100) */
+    background-color: #ffffff; /* Color de fondo del rectángulo */
+    border: 10px solid #4a4a4a; /* Ancho y color del borde del rectángulo */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Sombra del rectángulo */
+}
+
+.contenido-superpuesto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #333; /* Color del texto */
 }
