@@ -3,74 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galería de Imágenes</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    .container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-      padding: 16px;
-    }
-
-    .base {
-      background-color: black;
-      height: 200px;
-      position: relative;
-    }
-
-    .image-item {
-      overflow: hidden;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .image-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 0.3s ease-in-out;
-    }
-
-    .image-item:hover img {
-      transform: scale(1.1);
-    }
-  </style>
+  <title>CSS Grid Layout</title>
+  <link rel="stylesheet" href="./stail.css">
+  
 </head>
 <body>
-
-<div class="container">
-  <!-- Base negra superior -->
-  <div class="base"></div>
-  <!-- Base negra izquierda superior -->
-  <div class="base"></div>
-
-  <!-- Cuadro de imagen 1 -->
-  <div class="image-item">
-    <img src="imagen1.jpg" alt="Imagen 1">
+  <div class="container">
+    <!-- Puedes agregar tus elementos dentro de este bloque -->
+    <!-- Por ejemplo, imágenes en bloques .item -->
+    <div class="item">
+      <img src="ruta_de_tu_imagen1.jpg" alt="Imagen 1">
+    </div>
+    <div class="item">
+      <img src="ruta_de_tu_imagen2.jpg" alt="Imagen 2">
+    </div>
+    <!-- Repite estos bloques para agregar más imágenes -->
+    <div class="item">
+      <img src="ruta_de_tu_imagen3.jpg" alt="Imagen 3">
+    </div>
+    <div class="item">
+      <img src="ruta_de_tu_imagen4.jpg" alt="Imagen 4">
+    </div>
+    <div class="item">
+      <img src="ruta_de_tu_imagen5.jpg" alt="Imagen 5">
+    </div>
+    <div class="item">
+      <img src="ruta_de_tu_imagen6.jpg" alt="Imagen 6">
+    </div>
+    <div class="item">
+      <img src="ruta_de_tu_imagen7.jpg" alt="Imagen 7">
+    </div>
+    <div class="item">
+      <img src="ruta_de_tu_imagen8.jpg" alt="Imagen 8">
+    </div>
   </div>
-
-  <!-- Cuadro de imagen 2 -->
-  <div class="image-item">
-    <img src="imagen2.jpg" alt="Imagen 2">
-  </div>
-
-  <!-- Cuadro negro grande en la derecha -->
-  <div class="base" style="grid-column: span 2;"></div>
-
-  <!-- Cuadro de imagen 3 -->
-  <div class="image-item">
-    <img src="imagen3.jpg" alt="Imagen 3">
-  </div>
-
-  <!-- Base negra inferior -->
-  <div class="base" style="grid-column: span 3;"></div>
-</div>
-
 </body>
 </html>
