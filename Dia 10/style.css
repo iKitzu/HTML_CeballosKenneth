@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Evita el desplazamiento */
+    background-color: blue;
+}
+
+img {
+    width: 100vw; /* 100% del ancho de la ventana */
+    height: 100vh; /* 100% de la altura de la ventana */
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    position: fixed; /* Fija la imagen en la ventana, no en el contenido */
+    top: 0;
+    left: 0;
+}
